@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    border-bottom: 0.6px solid gray !important;
+}
+
+.nav-link {
+    font-weight: 300 !important;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    color: white;
+    padding: 25px;
+    background: linear-gradient(to right, #434343, black);
+    /* width: 100vw; */
+    /* width: max-content(100vw); */
+    /* scrollbar-width: 100%; */
+
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer a:hover {
+    border-bottom: 1px solid wheat;
+}
+
+.pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.pnf-heading {
+    font-weight: normal;
+}
+
+.pnf-btn {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+.pnf-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, rgba(194, 255, 233, 1), rgba(210, 190, 153, 1))
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 1.5rem;
+}
+
+.register h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.product-link {
+    text-decoration: none;
+    color: white;
+    color: black;
+}
+
+.learnmore {
+    background-color: gray;
+    color: rebeccapurple;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart a {
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons Button {
+    margin: 0.5rem;
+
+}
