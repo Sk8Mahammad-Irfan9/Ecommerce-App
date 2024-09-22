@@ -11,7 +11,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 // Payment Gateway
-var gateway = new braintree.BraintreeGateway({
+const gateway = new braintree.BraintreeGateway({
   environment: braintree.Environment.Sandbox,
   merchantId: process.env.BRAINTREE_MARCHENT_ID,
   publicKey: process.env.BRAINTREE_PUBLIC_KEY,
